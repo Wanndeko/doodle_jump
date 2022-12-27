@@ -1,7 +1,7 @@
 .grid {
     width: 400px;
     height: 600px;
-    background-color: darkkhaki;
+    background-image: url('./assets/cell_pixel.jpg');
     position: relative;
     font-size: 200px;
     text-align:center;
@@ -9,16 +9,21 @@
 }
 
 .doodler{
-    width: 60px;
+    width: 85px;
     height: 85px;
     position:absolute;
-    background-color: red;
+    background-image: url('./assets/doodler-guy.png');
 }
 
 .plataform{
     width: 85px;
     height: 15px;
+    background-image:url('./assets/platform_dd.png');
     position: absolute;
-    background-color:green;
 
+}
+
+body{
+    display: flex;
+    justify-content: center;
 }
